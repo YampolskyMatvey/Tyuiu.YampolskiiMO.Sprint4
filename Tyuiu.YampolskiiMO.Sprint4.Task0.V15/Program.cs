@@ -13,4 +13,4 @@ Console.WriteLine("ИСХОДНЫЕ ДАННЫЕ:");
 Console.WriteLine(string.Join(", ", values));
 Console.WriteLine();
 Console.WriteLine("РЕЗУЛЬТАТ:");
-Console.WriteLine(service.Calculate(values));
+Console.WriteLine(service.GetMultOddArrEl(values));

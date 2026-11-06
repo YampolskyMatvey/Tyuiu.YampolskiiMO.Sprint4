@@ -6,12 +6,12 @@ namespace Tyuiu.YampolskiiMO.Sprint4.Task0.V15.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void Calculate_MultipliesOddElements()
+        public void GetMultOddArrEl_MultipliesOddElements()
         {
             int[] values = { 9, 8, 7, 6, 5, 7, 3, 2, 7, 3 };
             var service = new DataService();
 
-            Assert.AreEqual(138915, service.Calculate(values));
+            Assert.AreEqual(138915, service.GetMultOddArrEl(values));
         }
     }
 }
